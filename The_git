@@ -1,0 +1,16 @@
+clone > git clone (Repo link)
+check status > git status
+chenged . modify M > 1. 2.
+untracked file . new files that git doesn't yet track >
+staged . file is ready to be committed >
+unmodified . unchenged > 
+1 add . adds new or changed files in your working directory to the Git staging area. > git add (file name)
+2 commit . it is the record of chenge >git commit -m "some message"
+3 push . upload local repo content to remote repo > git push origin main
+init . used to create a new git repo > 
+git init
+1 git remote add origin (link)
+2 git remote -v (to verify remote)
+3 git branch (to check branch)
+4 git branch -M main (to rename branch)
+5 git push origin main
