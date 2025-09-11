@@ -8,6 +8,23 @@ unmodified . unchenged >
 2 commit . it is the record of chenge >git commit -m "some message"
 3 push . upload local repo content to remote repo > git push origin main
 
+
+#Branch
+git branch (to check branch)
+git branch -M main (to rename branch)
+git checkout <branch name> (to navigate)
+git checkout -b <new branch name> (to create new branch)
+git branch -d <branch name> (to delete branch)
+. Merging:
+		1. git diff <branch name> (to compare commits, branches, files & more) . diffrence . > git diff index.html
+		 . git marge <branch name> (to marge 2 branches) > git marge feacher1
+	2. create a PR "pull request" . it lets you tell ithers about changes you've pushed to a branch in a repository on github 
+
+remote changes in local > git pull origin main	.used to fetch and download content from a remote repo abd innediately update the local repo to match that content
+
+ResolvingMarge conflicts:
+An event that takes place when Git is unable to automatically resolve diffrences in code between tow commits . ("current change.featur1","incoming change.main")
+
 # new repo
 init . used to create a new git repo > 
 git init
@@ -16,3 +33,14 @@ git init
 3 git branch (to check branch)
 4 git branch -M main (to rename branch)
 5 git push origin main                      (-u > upstrim)
+
+undoing changes:
+case1: staged changes		>git reset <file name>		> git reset
+case2: commited changes (for one commit) > git reset HEAD-1
+case3: commited changes (for many commits)> git reset <commit hash>	> git reset --hard <commit hash>
+
+
+Fork:
+A fork is a new repository that shares code and visibility settings with the original "upstream"repository.
+Fork is a rough copy.
+
